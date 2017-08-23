@@ -85,7 +85,7 @@ spec:
                 key: cni-conf.json
         volumeMounts:
         - name: cni
-          mountPath: /etc/cni/net.d
+          mountPath: /host/etc/cni/net.d
         - name: host-cni-bin
           mountPath: /host/opt/cni/bin/
       hostNetwork: true
